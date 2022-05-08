@@ -8,7 +8,7 @@ body{
     opacity:0.8 ;
 } 
 
-#home-section{
+#home-head-section .explore-head-section{
     background: url(../img/home.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,7 +17,7 @@ body{
     
 }
 
-#home-section .dark-overlay {
+#home-head-section  .dark-overlay {
     /* position: absolute; */
     top: 0;
     left: 0;
@@ -27,18 +27,25 @@ body{
     
 }
 
-#home-section .home-inner{
+#home-head-section .home-inner{
     padding-top: 80px;
     
 }
 
-#home-section .card-form{
+#home-head-section .card-form{
     opacity: 0.8;
 }
 
-#home-section .fas{
+#home-head-section .fas{
     color: blue;
     background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#create-head-section .fas{
+    color:wheat;
+    background: rgb(0, 0, 14);
     padding: 5px;
     border-radius: 5px;
 }
